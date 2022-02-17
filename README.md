@@ -5,6 +5,9 @@ BERT 기반의 문맥을 반영한 한국어 토픽 모델입니다. 모델은 C
 * 토크나이저로는 형태소 분석기 Mecab을 사용.
 * BERT로는 다국어 SBERT인 'sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens'를 사용.
 
+## 시각화 결과
+![topic model](https://user-images.githubusercontent.com/73151616/154489860-678b23bb-7959-4587-bc96-1309a4ea1493.PNG)
+
 ## High-level sketch of CombinedTM
 * CombinedTM은 Bag of Words 문서 벡터와 SBERT로부터 얻은 Contextualized Embedding을 concat하여 사용하는 모델입니다.
 
