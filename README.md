@@ -2,6 +2,7 @@
 ## 모델 소개
 BERT 기반의 문맥을 반영한 한국어 토픽 모델입니다. 모델은 CombinedTM을 사용하고 한국어에서 사용할 수 있도록 토크나이저와 SBERT를 수정하였습니다.
 
+* Paper : https://arxiv.org/abs/2004.03974
 * 토크나이저로는 형태소 분석기 Mecab을 사용.
 * BERT로는 다국어 SBERT인 'sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens'를 사용.
 * 토픽의 수는 임의로 50으로 결정.
