@@ -4,6 +4,7 @@ BERT 기반의 문맥을 반영한 한국어 토픽 모델입니다. 모델은 C
 
 * 토크나이저로는 형태소 분석기 Mecab을 사용.
 * BERT로는 다국어 SBERT인 'sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens'를 사용.
+* 별도 불용어 제거 등의 추가 전처리는 진행하지 않았음. (진행할 경우 더 좋은 결과를 얻을 수 있음.)
 
 ## 시각화 결과
 ![topic model](https://user-images.githubusercontent.com/73151616/154489860-678b23bb-7959-4587-bc96-1309a4ea1493.PNG)
