@@ -16,3 +16,6 @@ BERT 기반의 문맥을 반영한 한국어 토픽 모델입니다. 모델은 C
 * CombinedTM은 Bag of Words 문서 벡터와 SBERT로부터 얻은 Contextualized Embedding을 concat하여 사용하는 모델입니다.
 
 ![image](https://user-images.githubusercontent.com/73151616/154487038-aa4f1edb-4bf7-484f-a2ac-76b2aa9d2e06.jpg)
+
+## 시각화 결과
+![kobertopic](https://user-images.githubusercontent.com/73151616/154941035-1c21e2f9-891f-44f8-934f-26f9d7101936.png)
