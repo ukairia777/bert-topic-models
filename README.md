@@ -17,5 +17,5 @@ BERT 기반의 문맥을 반영한 한국어 토픽 모델입니다. 모델은 C
 
 ![image](https://user-images.githubusercontent.com/73151616/154487038-aa4f1edb-4bf7-484f-a2ac-76b2aa9d2e06.jpg)
 
-## 참고) 유사 한국어 토픽 모델
-KoBERTopic ( https://github.com/ukairia777/KoBERTopic )
+## 참고) 유사 BERT 기반 한국어 토픽 모델
+KoBERTopic : https://github.com/ukairia777/KoBERTopic
